@@ -1,20 +1,115 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
-  /* display: grid;
-  grid-template-columns: repeat(4, 220px); */
-  max-width: 1000px;
-  margin: 20px;
-}
+background-color: #fff;
+border-radius: 10px;
+padding: 20px;
+height: 100vh;
 
-.griditemUI {
+  /* display: grid;
+  bor
+  grid-template-columns: repeat(4, 220px);*/
+  max-width: 1200px;
+
+  margin: 0 auto;
+}
+body{
+  background-color: rgba(135, 207, 235, 0.225);
+}
+.s{
+  background-color: #fff;
+}
+/* .griditemUI {
   background-color: #fff;
   border: 2px solid #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
   cursor: -webkit-grab;
-}
+} */
 
 .container {
   background-color: #fff;
+}
+
+.j{
+  position: absolute;
+  top: 4px;
+  left: 20px;
+
+ display: none;
+
+}
+.border:hover .j{ 
+  display: block;
+
+}
+
+.border:hover {
+  opacity: 0.5;
+}
+
+.marked {
+  opacity: 0.5;
+  /* Add your custom styling for selected items here */
+/* Example: Red border for marked items */
+
+
+}
+.j2{
+  display: block;
+}
+
+
+.d{
+ opacity: 0.7;
+}
+.border{
+cursor:-webkit-grab;
+}
+.delete{
+cursor: pointer;
+color: red;
+}
+
+.display{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+
+
+}
+.nav{
+  height: 60px;
+ 
+}
+
+
+
+.first-image {
+
+
+border: 1px solid black;
+
+
+}
+.ja{
+ border: 2px solid black;
+ height: 500px;
+}
+.other-images {
+  grid-column: span 1;
+  grid-row: span 1;
+ 
+
+}
+
+.margin{
+background-color: #fff;
+margin-top: 10px;
+
+}
+.hori{
+  border-bottom: 1px solid black;
 }

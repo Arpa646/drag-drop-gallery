@@ -22,3 +22,57 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+
+
+
+#   <GridDropZone 
+#           className="margin"
+#           id="items"
+#           boxesPerRow={boxesPerRow}
+#           rowHeight={260}
+#           style={{ height: 280 * Math.ceil(items.length / 4) }}
+#         >
+#           {items.map((item: ICar,index) => (
+#             <GridItem key={item.id}>
+#               <Card
+#               className="border"
+#                 sx={{ marginRight: 2, marginBottom: 2 }}
+#               >
+
+# <input
+#             className="j"
+#             type="checkbox"
+#             onChange={handleCheckboxChange(item.id)}
+#             name=""
+#             id={item.id.toString()}
+#           />
+
+
+
+#   <CardMedia
+             
+#   component="img" // Use a div instead of an image component
+#   width={index === 0 ? "250px" : "170px"}
+#   height={index === 0 ? "250px" : "170px"}
+#   style={{
+#     backgroundSize: index === 0 ? "300px 300px" : "200px 200px",
+#     backgroundImage: `url(${item.image})`, // Set the dynamic image URL as the background
+#   }}
+# >
+
+# </CardMedia>
+
+          
+              
+#               </Card>
+#             </GridItem>
+#           ))}
+
+
+
+
+
+
+#         </GridDropZone>
